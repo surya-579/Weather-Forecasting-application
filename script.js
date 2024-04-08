@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const apiKey = '0d76170c4c60bad9f16b802aac5d48bb'; // Replace 'YOUR_API_KEY' with your API key
+    const apiKey = '0d76170c4c60bad9f16b802aac5d48bb';
     // Function to fetch weather data based on selected location
     function fetchWeather(location) {
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
