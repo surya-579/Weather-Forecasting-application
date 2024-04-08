@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+    background-image: url('Weather_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+}
+
+.container h1{
+    text-align: center;
+}
+.container label{
+    font-size: larger;
+}
+.container select{
+    font-size: large;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+}
+
+.text_contents{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.logo{
+    margin-left: auto;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
+

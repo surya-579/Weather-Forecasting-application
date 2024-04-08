@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+
+        <div class="contents">
+            <div class="text_contents">
+                <label for="location">Location:</label>
+                    <select id="location">
+                        <option value="London">London</option>
+                        <option value="New York">New York</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Viskhapatnam">Visakhapatnam</option>
+                    </select>
+                <div class="weather-info">
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                    <p id="humidity"></p>
+                    <p id="wind-speed"></p>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="Weather_logo.png" alt="Weather" height="200px" width="200px">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
